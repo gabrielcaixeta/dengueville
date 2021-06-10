@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">DengueVille</string>
+    <string name="app_name" translatable="false">DengueVille</string>
+    <string name="button_denuncia">FAÇA UMA DENUNCIA</string>
+    <string name="button_sintomas">SINTOMAS</string>
+    <string name="button_cuidados">CUIDADOS</string>
+    <string name="button_casos">ACOMPANHE OS CASOS</string>
+    <string name="button_notificacoes">NOTIFICAÇÕES</string>
+    <string name="footer_name" translatable="false">Copyright © 2021 - Faculdade Ielusc</string>
+    <string name="numero_telefone" translatable="false">tel:04734313233</string>
 </resources>
