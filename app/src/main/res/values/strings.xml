@@ -6,4 +6,5 @@
     <string name="button_casos">ACOMPANHE OS CASOS</string>
     <string name="button_notificacoes">NOTIFICAÇÕES</string>
     <string name="footer_name" translatable="false">Copyright © 2021 - Faculdade Ielusc</string>
+    <string name="numero_telefone" translatable="false">tel:04734313233</string>
 </resources>
