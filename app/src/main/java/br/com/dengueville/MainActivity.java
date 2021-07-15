@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
         intencao.setData(Uri.parse(numeroTelefone));
         startActivity(intencao);
     }
+    public void openCare (View view) {
+        Intent intent = new Intent(this, CareActivity.class);
+        startActivity(intent);
+    }
 }
