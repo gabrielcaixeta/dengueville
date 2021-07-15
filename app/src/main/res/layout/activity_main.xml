@@ -12,47 +12,55 @@
         style="@style/backgroundAmarelo"
         android:layout_width="330dp"
         android:layout_height="80dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
         android:drawableRight="@drawable/icon_place"
         android:text="@string/button_denuncia"
         android:textColor="#000000"
         android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        style="@style/backgroundAmarelo"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="70dp"
-        android:drawableRight="@drawable/icon_injection"
-        android:onClick="abrirTelaSintoma"
-        android:text="@string/button_sintomas"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
         style="@style/backgroundAmarelo"
         android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
         android:drawableRight="@drawable/icon_mosquito"
         android:onClick="openCare"
         android:text="@string/button_cuidados"
         android:textColor="#000000"
         android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/denuncia"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/backgroundAmarelo"
+        android:layout_width="156dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="40dp"
+        android:drawableRight="@drawable/icon_injection"
+        android:onClick="abrirTelaSintoma"
+        android:text="@string/button_sintomas"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/denuncia"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
@@ -67,24 +75,26 @@
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/denuncia" />
 
     <ImageButton
         android:id="@+id/imageButton"
         style="@style/backgroundAmarelo"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="40dp"
+        android:layout_marginBottom="160dp"
         android:onClick="abrirTelefone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.013"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/icon_phone" />
 
     <Button
@@ -104,36 +114,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
         app:layout_constraintVertical_bias="0.014" />
-
-    <Button
-        android:id="@+id/button3"
-        style="@style/backgroundAmarelo"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="40dp"
-        android:drawableRight="@drawable/icon_mosquito"
-        android:text="@string/button_cuidados"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.769"
-        app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/denuncia" />
-
-    <Button
-        android:id="@+id/button2"
-        style="@style/backgroundAmarelo"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
-        android:drawableRight="@drawable/icon_injection"
-        android:text="@string/button_sintomas"
-        android:textColor="#000000"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/denuncia" />
 
     <TextView
         android:id="@+id/textView"
