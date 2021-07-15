@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DengueVille">
+        <activity android:name=".CareActivity"></activity>
         <activity android:name=".SintomasActivity"></activity>
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
